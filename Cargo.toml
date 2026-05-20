@@ -1,0 +1,14 @@
+[package]
+name = "deltra_neutral_bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ethers = "2.0" 
+anyhow = "1.0" 
+dotenv = "0.15.0"
+lazy_static = "1.4"
