@@ -1,8 +1,8 @@
-# Delta-Neutral Bot (Rust)
+# Delta-Neutral MM Bot
 
 A high-frequency delta-neutral bot written in Rust that maintains a SOL hedge between a Meteora DLMM position and a perpetual short on Lighter DEX.
 
-## How it works
+## How does it work
 
 - Periodically fetches the SOL amount from a Meteora DLMM position (`amount_x`) and the size of an existing short position on Lighter.
 - Calculates the **delta** = `Meteora SOL balance - Lighter short size`.
